@@ -132,9 +132,17 @@ const styles = StyleSheet.create({
   default: {
     overflow: 'hidden',
     position: 'relative',
-    height: 32,
     backgroundColor: '#EEEEF0',
     borderRadius: 9,
+
+    ...Platform.select({
+      windows: {
+        height: "auto"
+      },
+      default: {
+        height: 32,
+      },
+    }),
   },
   darkControl: {
     backgroundColor: '#1C1C1F',
