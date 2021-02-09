@@ -1,6 +1,6 @@
 {
-  "name": "@react-native-community/segmented-control",
-  "version": "2.2.1",
+  "name": "@react-native-segmented-control/segmented-control",
+  "version": "2.3.0",
   "description": "React Native SegmentedControlIOS library",
   "main": "js/index.js",
   "types": "index.d.ts",
@@ -73,5 +73,8 @@
   "bugs": {
     "url": "https://github.com/react-native-community/segmented-control/issues"
   },
-  "homepage": "https://github.com/react-native-community/segmented-control#readme"
+  "homepage": "https://github.com/react-native-community/segmented-control#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
